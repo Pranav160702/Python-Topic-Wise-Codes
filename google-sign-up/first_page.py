@@ -6,7 +6,7 @@ from tkinter import ttk
 root = tk.Tk()
 root.title("Create Google Account")
 root.geometry('1000x500')
-root.iconbitmap('google-sign-up/google_logo_icon_.ico')
+root .iconbitmap('google-sign-up/google_logo_icon_.ico')
 
 # Center the window on the screen
 window_width = 800

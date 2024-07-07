@@ -1,8 +1,24 @@
+def is_tolerate(a, b, tolerance):
+    return abs(a - b ) <= tolerance
 
-x = ["apple", "banana"]
-y = ["apple", "banana"]
-z = x
-print(x is not y)  # Outputs: True
+a = float(input("Enter valu of a: "))
+b = float(input("Enter valu of b: "))
+tolerance = float(input("Enter tolerance: "))
+
+if is_tolerate(a, b, tolerance):
+    print("Tolerate")
+else:
+    print("Not tolerate")
+
+
+
+
+
+
+# x = ["apple", "banana"]
+# y = ["apple", "banana"]
+# z = x
+# print(x is not y)  # Outputs: True
 
 # print(x is z)  # Outputs: True
 # print(x is y)  # Outputs: False
